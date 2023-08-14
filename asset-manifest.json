@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/trendco/static/css/main.81dc1d3f.css",
+    "main.js": "/trendco/static/js/main.6b5a27b2.js",
+    "index.html": "/trendco/index.html",
+    "main.81dc1d3f.css.map": "/trendco/static/css/main.81dc1d3f.css.map",
+    "main.6b5a27b2.js.map": "/trendco/static/js/main.6b5a27b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81dc1d3f.css",
+    "static/js/main.6b5a27b2.js"
+  ]
+}
