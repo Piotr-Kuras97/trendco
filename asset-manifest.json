@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/trendco/static/css/main.158514da.css",
-    "main.js": "/trendco/static/js/main.ffa071ed.js",
-    "static/media/TREDNDCO.png": "/trendco/static/media/TREDNDCO.81344421ea44c51cb41e.png",
+    "main.css": "/trendco/static/css/main.fd8bdc8f.css",
+    "main.js": "/trendco/static/js/main.9af97d37.js",
+    "static/media/Original on Transparent.png": "/trendco/static/media/Original on Transparent.8854755290b3f3336aa5.png",
     "index.html": "/trendco/index.html",
-    "main.158514da.css.map": "/trendco/static/css/main.158514da.css.map",
-    "main.ffa071ed.js.map": "/trendco/static/js/main.ffa071ed.js.map"
+    "main.fd8bdc8f.css.map": "/trendco/static/css/main.fd8bdc8f.css.map",
+    "main.9af97d37.js.map": "/trendco/static/js/main.9af97d37.js.map"
   },
   "entrypoints": [
-    "static/css/main.158514da.css",
-    "static/js/main.ffa071ed.js"
+    "static/css/main.fd8bdc8f.css",
+    "static/js/main.9af97d37.js"
   ]
 }
