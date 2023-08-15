@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.81dc1d3f.css","mappings":"AAAA,iBAGI,sBAFA,SACA,SACA","sources":["sass/_reset.scss"],"sourcesContent":["*, *::after, *::before{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}"],"names":[],"sourceRoot":""}
