@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trendco/static/css/main.afe90949.css",
-    "main.js": "/trendco/static/js/main.6b45c54d.js",
+    "main.js": "/trendco/static/js/main.e0bafcfe.js",
     "static/media/Original on Transparent.png": "/trendco/static/media/Original on Transparent.8854755290b3f3336aa5.png",
     "static/media/Monochrome on Transparent.png": "/trendco/static/media/Monochrome on Transparent.277354186c1716fe73e0.png",
     "static/media/artist-4622221_1920.jpg": "/trendco/static/media/artist-4622221_1920.2d138234ac63b1ed336d.jpg",
@@ -12,10 +12,10 @@
     "static/media/TREND6.jpg": "/trendco/static/media/TREND6.58e723ccdfae7bbb3484.jpg",
     "index.html": "/trendco/index.html",
     "main.afe90949.css.map": "/trendco/static/css/main.afe90949.css.map",
-    "main.6b45c54d.js.map": "/trendco/static/js/main.6b45c54d.js.map"
+    "main.e0bafcfe.js.map": "/trendco/static/js/main.e0bafcfe.js.map"
   },
   "entrypoints": [
     "static/css/main.afe90949.css",
-    "static/js/main.6b45c54d.js"
+    "static/js/main.e0bafcfe.js"
   ]
 }
