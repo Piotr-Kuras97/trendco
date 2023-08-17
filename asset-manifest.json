@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trendco/static/css/main.49893fba.css",
-    "main.js": "/trendco/static/js/main.931c2ddf.js",
+    "main.css": "/trendco/static/css/main.94680428.css",
+    "main.js": "/trendco/static/js/main.c4aca64d.js",
     "static/media/Original on Transparent.png": "/trendco/static/media/Original on Transparent.8854755290b3f3336aa5.png",
     "static/media/artist-4622221_1920.jpg": "/trendco/static/media/artist-4622221_1920.2d138234ac63b1ed336d.jpg",
     "static/media/TREND3.jpg": "/trendco/static/media/TREND3.760091d616452d9ca993.jpg",
@@ -9,14 +9,18 @@
     "static/media/barber-shop-5212059_1920.jpg": "/trendco/static/media/barber-shop-5212059_1920.7c42357471ec64718f4a.jpg",
     "static/media/bg_register.jpg": "/trendco/static/media/bg_register.6b87953e004f599b734e.jpg",
     "static/media/trend4.jpg": "/trendco/static/media/trend4.4f1c52ce1d2af313b1d8.jpg",
+    "static/media/bg_interlude.jpg": "/trendco/static/media/bg_interlude.fc9174d4e205d9837bd1.jpg",
     "static/media/TREND6.jpg": "/trendco/static/media/TREND6.58e723ccdfae7bbb3484.jpg",
     "static/media/aboutimage.jpg": "/trendco/static/media/aboutimage.ef8d251398925c7cfc7b.jpg",
+    "static/media/together.png": "/trendco/static/media/together.628379613664e84c9ea1.png",
+    "static/media/connect.png": "/trendco/static/media/connect.6e590b90319461480f78.png",
+    "static/media/free.png": "/trendco/static/media/free.9462582dfdc030519428.png",
     "index.html": "/trendco/index.html",
-    "main.49893fba.css.map": "/trendco/static/css/main.49893fba.css.map",
-    "main.931c2ddf.js.map": "/trendco/static/js/main.931c2ddf.js.map"
+    "main.94680428.css.map": "/trendco/static/css/main.94680428.css.map",
+    "main.c4aca64d.js.map": "/trendco/static/js/main.c4aca64d.js.map"
   },
   "entrypoints": [
-    "static/css/main.49893fba.css",
-    "static/js/main.931c2ddf.js"
+    "static/css/main.94680428.css",
+    "static/js/main.c4aca64d.js"
   ]
 }
