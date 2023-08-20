@@ -1,40 +1,27 @@
 {
   "files": {
-    "main.css": "/trendco/static/css/main.68bdc820.css",
-    "main.js": "/trendco/static/js/main.13cf4b26.js",
+    "main.css": "/trendco/static/css/main.080db96a.css",
+    "main.js": "/trendco/static/js/main.a194680f.js",
     "static/media/Original on Transparent.png": "/trendco/static/media/Original on Transparent.8854755290b3f3336aa5.png",
-    "static/media/Grayscale on Transparent.png": "/trendco/static/media/Grayscale on Transparent.a6eeb4f051714f87db48.png",
-    "static/media/Monochrome on Transparent.png": "/trendco/static/media/Monochrome on Transparent.277354186c1716fe73e0.png",
-    "static/media/TREND5.jpg": "/trendco/static/media/TREND5.552e4dc4f8a550b43eb2.jpg",
     "static/media/artist-4622221_1920.jpg": "/trendco/static/media/artist-4622221_1920.2d138234ac63b1ed336d.jpg",
-    "static/media/Original.png": "/trendco/static/media/Original.e472fdac0fbc50f64cf9.png",
-    "static/media/White on Transparent.png": "/trendco/static/media/White on Transparent.735534e51c2b7ebf01ef.png",
-    "static/media/Black on White.png": "/trendco/static/media/Black on White.949d4b7f080e017027a2.png",
-    "static/media/White on Black.png": "/trendco/static/media/White on Black.e8bbb41b6a9863f5c391.png",
-    "static/media/Black on Transparent.png": "/trendco/static/media/Black on Transparent.62d0c69a7f881b20ab01.png",
-    "static/media/TREND1.jpg": "/trendco/static/media/TREND1.0aa332ec9ab54c10673d.jpg",
+    "static/media/infographic.svg": "/trendco/static/media/infographic.825bb7c448c755df3e9af1c612975929.svg",
     "static/media/TREND3.jpg": "/trendco/static/media/TREND3.760091d616452d9ca993.jpg",
     "static/media/painting-1380016_1920.jpg": "/trendco/static/media/painting-1380016_1920.fd77d26880e84feac8bd.jpg",
-    "static/media/radio-4245029_1920.jpg": "/trendco/static/media/radio-4245029_1920.35ac9ac78023348d2e13.jpg",
     "static/media/barber-shop-5212059_1920.jpg": "/trendco/static/media/barber-shop-5212059_1920.7c42357471ec64718f4a.jpg",
     "static/media/bg_register.jpg": "/trendco/static/media/bg_register.6b87953e004f599b734e.jpg",
-    "static/media/TREND2.jpg": "/trendco/static/media/TREND2.8f0337bf54ffa47f53eb.jpg",
     "static/media/trend4.jpg": "/trendco/static/media/trend4.4f1c52ce1d2af313b1d8.jpg",
-    "static/media/artist-2238785_1920.jpg": "/trendco/static/media/artist-2238785_1920.b22243940d3ff7c5deba.jpg",
     "static/media/bg_interlude.jpg": "/trendco/static/media/bg_interlude.fc9174d4e205d9837bd1.jpg",
     "static/media/TREND6.jpg": "/trendco/static/media/TREND6.58e723ccdfae7bbb3484.jpg",
-    "static/media/photography-1850469_1920.jpg": "/trendco/static/media/photography-1850469_1920.8e85439bd708a3b97365.jpg",
     "static/media/aboutimage.jpg": "/trendco/static/media/aboutimage.ef8d251398925c7cfc7b.jpg",
     "static/media/together.png": "/trendco/static/media/together.628379613664e84c9ea1.png",
     "static/media/connect.png": "/trendco/static/media/connect.6e590b90319461480f78.png",
     "static/media/free.png": "/trendco/static/media/free.9462582dfdc030519428.png",
-    "static/media/pattern.svg": "/trendco/static/media/pattern.44317d7093eb103ee9b4.svg",
     "index.html": "/trendco/index.html",
-    "main.68bdc820.css.map": "/trendco/static/css/main.68bdc820.css.map",
-    "main.13cf4b26.js.map": "/trendco/static/js/main.13cf4b26.js.map"
+    "main.080db96a.css.map": "/trendco/static/css/main.080db96a.css.map",
+    "main.a194680f.js.map": "/trendco/static/js/main.a194680f.js.map"
   },
   "entrypoints": [
-    "static/css/main.68bdc820.css",
-    "static/js/main.13cf4b26.js"
+    "static/css/main.080db96a.css",
+    "static/js/main.a194680f.js"
   ]
 }
