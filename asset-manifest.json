@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trendco/static/css/main.5738e4a9.css",
-    "main.js": "/trendco/static/js/main.ecc6cb12.js",
+    "main.css": "/trendco/static/css/main.f715d9d1.css",
+    "main.js": "/trendco/static/js/main.b6e65ca3.js",
     "static/media/Original on Transparent.png": "/trendco/static/media/Original on Transparent.8854755290b3f3336aa5.png",
     "static/media/artist-4622221_1920.jpg": "/trendco/static/media/artist-4622221_1920.2d138234ac63b1ed336d.jpg",
     "static/media/infographic.svg": "/trendco/static/media/infographic.825bb7c448c755df3e9af1c612975929.svg",
@@ -12,16 +12,17 @@
     "static/media/trend4.jpg": "/trendco/static/media/trend4.4f1c52ce1d2af313b1d8.jpg",
     "static/media/bg_interlude.jpg": "/trendco/static/media/bg_interlude.fc9174d4e205d9837bd1.jpg",
     "static/media/TREND6.jpg": "/trendco/static/media/TREND6.58e723ccdfae7bbb3484.jpg",
-    "static/media/aboutimage.jpg": "/trendco/static/media/aboutimage.ef8d251398925c7cfc7b.jpg",
+    "static/media/bg_addoffer.jpg": "/trendco/static/media/bg_addoffer.93d53baf6989f466fc00.jpg",
+    "static/media/aboutimage.jpg": "/trendco/static/media/aboutimage.42f70983886ddea0c631.jpg",
     "static/media/together.png": "/trendco/static/media/together.628379613664e84c9ea1.png",
     "static/media/connect.png": "/trendco/static/media/connect.6e590b90319461480f78.png",
     "static/media/free.png": "/trendco/static/media/free.9462582dfdc030519428.png",
     "index.html": "/trendco/index.html",
-    "main.5738e4a9.css.map": "/trendco/static/css/main.5738e4a9.css.map",
-    "main.ecc6cb12.js.map": "/trendco/static/js/main.ecc6cb12.js.map"
+    "main.f715d9d1.css.map": "/trendco/static/css/main.f715d9d1.css.map",
+    "main.b6e65ca3.js.map": "/trendco/static/js/main.b6e65ca3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5738e4a9.css",
-    "static/js/main.ecc6cb12.js"
+    "static/css/main.f715d9d1.css",
+    "static/js/main.b6e65ca3.js"
   ]
 }
