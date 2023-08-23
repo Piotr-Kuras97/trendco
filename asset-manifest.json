@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trendco/static/css/main.0ede5ec3.css",
-    "main.js": "/trendco/static/js/main.5781a447.js",
+    "main.css": "/trendco/static/css/main.a175de78.css",
+    "main.js": "/trendco/static/js/main.e30f2268.js",
     "static/media/Original on Transparent.png": "/trendco/static/media/Original on Transparent.8854755290b3f3336aa5.png",
     "static/media/artist-4622221_1920.jpg": "/trendco/static/media/artist-4622221_1920.2d138234ac63b1ed336d.jpg",
     "static/media/bg_addoffer.jpg": "/trendco/static/media/bg_addoffer.9d384bc5815f0a5b1939.jpg",
@@ -15,17 +15,16 @@
     "static/media/bg_register.jpg": "/trendco/static/media/bg_register.6b87953e004f599b734e.jpg",
     "static/media/trend4.jpg": "/trendco/static/media/trend4.4f1c52ce1d2af313b1d8.jpg",
     "static/media/TREND6.jpg": "/trendco/static/media/TREND6.58e723ccdfae7bbb3484.jpg",
-    "static/media/graphic.png": "/trendco/static/media/graphic.46fea80480d2c5ff0bea.png",
     "static/media/aboutimage.jpg": "/trendco/static/media/aboutimage.42f70983886ddea0c631.jpg",
     "static/media/together.png": "/trendco/static/media/together.628379613664e84c9ea1.png",
     "static/media/connect.png": "/trendco/static/media/connect.6e590b90319461480f78.png",
     "static/media/free.png": "/trendco/static/media/free.9462582dfdc030519428.png",
     "index.html": "/trendco/index.html",
-    "main.0ede5ec3.css.map": "/trendco/static/css/main.0ede5ec3.css.map",
-    "main.5781a447.js.map": "/trendco/static/js/main.5781a447.js.map"
+    "main.a175de78.css.map": "/trendco/static/css/main.a175de78.css.map",
+    "main.e30f2268.js.map": "/trendco/static/js/main.e30f2268.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ede5ec3.css",
-    "static/js/main.5781a447.js"
+    "static/css/main.a175de78.css",
+    "static/js/main.e30f2268.js"
   ]
 }
