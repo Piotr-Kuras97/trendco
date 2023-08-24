@@ -1,0 +1,265 @@
+@import '../variables';
+@import '../mixins';
+
+.navbar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 1900px;
+    right: -100%;
+    background-color: $menu-color-mobile;
+    overflow-y: auto;
+    color: white;
+    transition: .5s;
+    z-index: 2;
+
+    @media (min-width: 768px){
+        width: 50%;
+    }
+
+    @media (min-width: 1024px){
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        right: 0;
+        height: 8vh;
+        bottom: auto;
+        overflow-y: visible;
+        background-color: transparent;
+        color: black;
+
+        &.down{
+            top: -10vh;
+        }
+
+        &.true{
+            background-color: black;
+            color: white;
+
+            .navbar__options-container{
+                .navbar__options-other{
+                    .navbar__login, .navbar__register, .navbar__add, .navbar__logout, .navbar__account{  
+                        @media (min-width: 1024px){
+                            color: white;
+                        }
+                    }
+
+                    .navbar__register, .navbar__add, .navbar__account{
+                        @media(min-width: 1024px){
+                            border-color: white;
+
+                            &:hover{
+                                background-color: white;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &--active{
+        right: 0;
+    }
+
+    &__mobile-icons{
+        position: fixed;
+        top: 25px;
+        right: 25px;
+        font-size: 2.3rem;
+        z-index: 1;
+
+        @media (min-width: 1024px){
+           display: none;
+        }
+
+        & .no-active{
+            display: none;
+        }
+    }
+
+    &__logo-container{
+        top: 0px;
+        left: 0px;
+        position: fixed;
+        background-color: $menu-color-mobile;
+        width: 100%;
+        z-index: 0;
+
+        @media (min-width: 1024px){
+            background-color: transparent;
+            position: absolute;
+            height: 8vh;
+            z-index: -1;
+        }
+
+        img{
+            margin-left: 15px;
+            width: 7rem;
+
+            @media (min-width: 1024px){
+                margin-left: 2%;
+                height: 100%;
+                width: 8rem;
+            }
+        }
+    }
+
+    &__options-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 8rem;
+        height: calc(100vh - 8rem);
+        text-transform: uppercase;
+
+        @media (min-width: 1024px){
+            flex-direction: row;
+            margin-top: 0;
+            margin-left: 14rem;
+            height: 8vh;
+        }
+
+        @media (min-width: 1440px){
+            margin-left: 20rem;
+        }
+
+        .navbar__options-main{
+            margin-top: $spacing-mobile;
+
+            @media (min-width: 1024px){
+                display: flex;
+                margin: 0;
+            }
+
+            .navbar__option{
+                font-size: 1.5rem;
+                padding-top: $spacing-mobile / 2;
+                padding-bottom: $spacing-mobile / 2;
+                margin: 0 15px;
+                cursor: pointer;
+                border-bottom: 1px solid white;
+
+                @media (min-width: 1024px){
+                    line-height: 8vh;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    padding-left: 10px;
+                    margin-left: 0;
+                    font-size: 1.1rem;
+                    border-bottom: none;
+                }
+
+                @media (min-width: 1440px){
+                    font-size: 1.3rem;
+                    padding-left: 20px;
+                }
+
+                p{
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+
+                    @media (min-width: 1024px){
+                        display: block;
+
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+
+                    .icon{
+                        position: absolute;
+                        top: 50%;
+                        right: 0;
+                        transform: translateY(-50%);
+
+                        @media(min-width: 1024px){
+                            right: auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        .navbar__options-other{
+            margin-top: 25px;
+            margin-bottom: $spacing-mobile * 5;
+            align-self: center;
+
+            @media (min-width: 1024px){
+                margin-top: 0;
+                margin-bottom: 0;
+                align-self: flex-start;
+                margin-right: $spacing-desktop * 2;
+            }
+
+            @media(min-width: 1440px){
+                margin-right: 15%;
+            }
+
+            .navbar__login, .navbar__register, .navbar__add, .navbar__logout, .navbar__account{
+                position: relative;
+                color: white;
+                margin: 0 10px;
+                font-size: 1.3rem;
+                text-decoration: none;
+
+                @media (min-width: 1024px){
+                    line-height: 8vh;
+                    color: black;
+                }
+
+                @media (min-width: 1440px){
+                    font-size: 1.6rem;
+                }
+
+                .icon{
+                    position: relative;
+                    top: 3px;
+
+                    @media (min-width: 1024px){
+                        top: 1px;
+                    }
+                }
+            }
+
+            .navbar__login, .navbar__logout{
+                @media(min-width: 1024px){
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .navbar__logout{
+                font-size: 1.2rem;
+                display: block;
+                text-align: center;
+                margin-bottom: 0;
+                margin-top: 25px;
+
+                @media (min-width:1024px){
+                    display: inline-block;
+                    margin: 0 15px;
+                }
+            }
+
+            .navbar__register, .navbar__add, .navbar__account{
+                border: 2px solid white;
+                padding: 5px 10px;
+
+                @media(min-width: 1024px){
+                    border-color: black;
+                    &:hover{
+                        background-color: black;
+                        color: white;
+                        border-color: black;
+                    }
+                }
+            }
+        }
+    }
+}

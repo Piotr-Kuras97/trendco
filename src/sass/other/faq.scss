@@ -1,0 +1,75 @@
+@import '../variables';
+
+.faq{
+    padding-top: 13vh;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    background-position: center;
+
+    &__image{
+        width: 100%;
+
+        @media(min-width: 640px){
+            width: 80%;
+            margin: auto;
+        }
+
+        @media (min-width: 1024px){
+            width: 50%;
+        }
+
+        @media (min-width: 1024px){
+            width: 35%;
+        }
+        img{
+            width: 100%;
+        }
+    }
+
+    &__option{
+        padding: 10px $spacing-mobile 0px;
+        border-bottom: 2px solid black;
+
+        @media(min-width: 640px){
+            margin-left: 70px;
+            margin-right: 70px;
+        }
+
+        @media(min-width: 1024px){
+            margin-left: 140px;
+            margin-right: 140px;
+        }
+
+        @media(min-width: 1440px){
+            margin-left: 280px;
+            margin-right: 280px;
+        }
+
+        &-title{
+            position: relative;
+            padding-bottom: 20px;
+            font-size: 1.5rem;
+            cursor: pointer;
+
+            .icon{
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+
+        &-text{
+            padding-bottom: 15px;
+            transition: .3s;
+            font-size: 0;
+
+            &.active{
+                font-size: 1.3rem;
+
+                @media(min-width: 1024px){
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}

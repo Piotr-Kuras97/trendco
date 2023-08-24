@@ -1,0 +1,40 @@
+@import '../variables';
+
+.addofferform__container{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    padding-top: 15vh;
+    padding-bottom: $spacing-mobile * 2;
+
+    .addofferform{
+
+
+        &__title{
+            text-align: center;
+            color: black;
+            font-size: 1.6rem;
+    
+            @media (min-width: 640px){
+                font-size: 2rem;
+            }
+    
+            @media (min-width: 1024px){
+                font-size: 2.5rem;
+            }
+        }
+
+        &__form{
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border: 2px solid gray;
+
+            @media (min-width: 1024px){
+                width: 50%;
+                padding: 35px;
+            }
+        }
+    }
+}

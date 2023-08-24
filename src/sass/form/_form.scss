@@ -1,0 +1,56 @@
+@import '../variables';
+@import '../mixins';
+
+.form{
+    @include loginregisterForm;
+
+    &__container{
+        @include loginregisterContainer
+    }
+
+    &__form{
+        flex-grow: 1;
+    }
+
+    &__title{
+        @include loginregisterTitle
+    }
+
+    &__login{
+        margin-top: $spacing-mobile;
+        text-align: center;
+    }
+
+    &__register{
+        margin-top: $spacing-mobile;
+        text-align: center;
+    }
+
+    &__desktop{
+        @include loginregisterDesktop;
+
+        &--title{
+            @include registerformDesktop(80px, 3.2rem)
+        }
+
+        &--text{
+            @include registerformDesktop(40px, 2rem);
+            padding-right: 15%
+        }
+
+        &--image-container{
+            width: 50%;
+            margin: 25px auto;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        &--slogan{
+            @include registerformDesktop(40px, 2.2rem);
+            line-height: 1.4;
+            font-family: $header-font;
+        }
+    }
+}

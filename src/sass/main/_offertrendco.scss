@@ -1,0 +1,119 @@
+@import '../variables';
+@import '../mixins';
+
+.offer{
+    padding-top: 10vh;
+    padding-bottom: $spacing-mobile * 2;
+    background-color: #eee;
+
+    @media(min-width: 1024px){
+        padding-top: 15vh;
+        padding-bottom: $spacing-mobile * 4;
+    }
+
+    &__title{
+        text-align: center;
+        padding-top: $spacing-mobile;
+        font-size: 2.4rem;
+
+        @media(min-width: 1024px){
+            font-size: 3.2rem;
+        }
+    }
+
+    &__text{
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        font-family: $menu-font;
+        font-size: 1.4rem;
+        margin-top: 8px;
+        color: #777;
+
+        @media(min-width: 640px){
+            width: 60%;
+            margin-left: 20%;
+        }
+
+        @media(min-width: 1024px){
+            width: 30%;
+            margin-left: 35%;
+            font-size: 1.8rem;
+        }
+    }
+
+    &__btn-group{
+        position: relative;
+        margin-top: $spacing-mobile;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+
+        @media(min-width: 1024px){
+            margin-top: $spacing-mobile * 2;
+            width: 50%;
+            height: 40px;
+
+            button{
+                font-size: 2rem
+            }
+        }
+    }
+
+    &__option-container{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: $spacing-mobile;
+
+        @media (min-width: 1024px){
+            display: flex;
+            justify-content: center;
+            margin-top: $spacing-mobile * 2;
+        }
+
+        .offer__option{
+            margin-top: 35px;
+
+            @media (min-width: 1024px){
+                flex-basis: 30%;
+            }
+
+            img{
+                width: 40%;
+                margin-left: 30%;
+
+                @media (min-width: 640px){
+                    width: 30%;
+                    margin-left: 35%;
+                }
+            }
+
+            &-title{
+                text-align: center;
+                padding-top: 10px;
+                font-family: $menu-font;
+                font-size: 2.2rem;
+
+                @media (min-width: 1024px){
+                    font-size: 2.4rem;
+                }
+            }
+
+            &-text{
+                margin-left: 10%;
+                padding-top: 10px;
+                width: 80%;
+                text-align: center;
+                font-size: 1.4rem;
+                font-family: $menu-font;
+                color: #555;
+
+                @media (min-width: 1024px){
+                    font-size: 1.6rem;
+                    width: 60%;
+                    margin-left: 20%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+@import '../variables';
+@import '../mixins';
+
+.infographic{
+    padding-top: $spacing-mobile;
+    padding-bottom: $spacing-mobile;
+    background-color: black;
+
+    @media(min-width:1024px){
+        display: flex;
+        padding-bottom: $spacing-mobile * 4;
+        padding-top: $spacing-mobile * 4;
+    }
+
+    &__text-container{
+        padding: $spacing-mobile;
+        text-align: center;
+
+        @media(min-width:1024px){
+            flex-basis: 50%;
+            align-self: center;
+            text-align: left;
+            margin-right: $spacing-mobile;
+        }
+
+        .infographic__title{
+            @include fontGradientColor;
+            font-size: 2.4rem;
+            text-transform: uppercase;
+
+            @media(min-width: 640px){
+               font-size: 2.8rem;
+            }
+        }
+
+        .infographic__text{
+            color: #ccc;
+            font-size: 1.3rem;
+            padding-top: 10px;
+
+            @media(min-width: 640px){
+                font-size: 1.6rem;
+            }
+
+            @media(min-width: 1024px){
+                font-size: 2rem;
+                line-height: 1.2;
+            }
+        }
+    }
+
+    &__image-container{
+        
+        @media(min-width:1024px){
+            order: -1;
+            flex-basis: 40%;
+        }
+
+        .infographic__image{
+            margin-left: 15%;
+            width: 70%;
+
+            @media(min-width: 640px){
+                margin-left: 25%;
+                width: 50%;
+            }
+
+            @media (min-width: 768px){
+                margin-left: 30%;
+                width: 40%;
+            }
+        }
+    }
+
+}

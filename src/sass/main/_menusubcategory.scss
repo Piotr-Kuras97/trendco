@@ -1,0 +1,69 @@
+@import '../variables';
+
+.menusubcategory{
+    margin-left: $spacing-mobile;
+    margin-top: $spacing-mobile / 4;
+    display: none;
+    color: white;
+
+    @media (min-width: 1024px){
+        display: block;
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 5px 35px 0 5px;
+        line-height: 2.5;
+        background-color: $menu-color-mobile;
+        transform: scaleY(0);
+        transform-origin: 100% 0%;
+        transition: .3s;
+    }
+
+    &.active{
+        display: block;
+
+        @media (min-width: 1024px){
+            transform: scaleY(1);
+        }
+    }
+
+    &__option{
+        font-size: 1.4rem;
+        font-weight: normal;
+        padding-top: 10px;
+
+        @media (min-width: 1024px){
+            padding-top: 0;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    .menusubcategory__container{
+        position: relative;
+    }
+    .menusubcategory__second{
+            padding-bottom: 10px;
+            padding-left: 15px;
+        a{
+            display: block;
+            padding-top: 10px;
+            border-bottom: 1px solid gray;
+            font-size: 1rem;
+            color: white;
+            text-decoration: none;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+
+        @media(min-width: 1024px){
+            position: absolute;
+            background-color: black;
+            left: 100%;
+            top: -20px;
+            min-width: 100%
+        }
+    }
+}

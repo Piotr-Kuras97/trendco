@@ -1,2 +1,15 @@
 @import 'reset';
-@import 'basic'
+@import 'basic';
+@import './main/menu';
+@import './main/menusubcategory';
+@import './form/logocontainer';
+@import './form/form';
+@import './main/header';
+@import './main/abouttrendco';
+@import './main/offertrendco';
+@import './search_and_add/searchsubcategory';
+@import './search_and_add/addsubcategory';
+@import './main/infographic';
+@import './main/footer';
+@import './form/addofferform';
+@import './other/faq.scss';

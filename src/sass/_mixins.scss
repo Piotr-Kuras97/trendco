@@ -1,0 +1,80 @@
+@import 'variables';
+
+@mixin fontGradientColor{
+    background: #3845F7;
+    background: linear-gradient(to right, #3845F7 0%, #E11EE8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin registerformDesktop($mt, $fz){
+    margin-left: 50px;
+    color: white;
+    margin-top: $mt;
+    font-size: $fz;
+    font-family: $header-font;
+}
+
+@mixin loginregisterContainer{
+    background-image: url(../assets/images/bg_register.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: $spacing-mobile;
+    min-height: 100vh;
+
+    @media (min-width: 1024px){
+        display: flex;
+        padding-bottom: 0;
+    }
+}
+
+@mixin loginregisterDesktop{
+    display: none;
+
+    @media (min-width: 1024px){
+        flex-basis: 40%;
+        height: inherit;
+        display: block;
+        background-image: url(../assets/images/bg_register.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@mixin loginregisterForm{
+    width: 90%;
+    margin-left: 5%;
+    padding: 0 5% $spacing-desktop 5%;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 20px;
+
+    @media (min-width: 640px){
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    @media (min-width: 1024px){
+        display: flex;
+        margin-left: 0;
+        flex-basis: 60%;
+        border: none;
+        border-radius: 0;
+        align-items: center;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@mixin loginregisterTitle{
+    text-align: center;
+    padding-top: $spacing-mobile;
+    font-size: 2.2rem;
+    margin-bottom: $spacing-mobile;
+
+    @media (min-width: 1024px){
+        font-size: 3rem;
+    }
+}
