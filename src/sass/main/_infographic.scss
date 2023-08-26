@@ -23,6 +23,10 @@
             margin-right: $spacing-mobile;
         }
 
+        @media (min-width:1440px){
+            margin-right: 15%;
+        }
+
         .infographic__title{
             @include fontGradientColor;
             font-size: 2.4rem;
@@ -68,6 +72,10 @@
             @media (min-width: 768px){
                 margin-left: 30%;
                 width: 40%;
+            }
+
+            @media(min-width: 1440px){
+                margin-left: 35%;
             }
         }
     }

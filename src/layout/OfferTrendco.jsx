@@ -31,17 +31,17 @@ function OfferTrendco() {
 
             {showOffer ? 
                 <div className="offer__option-container">
-                    <div className="offer__option">
+                    <div className="offer__option" data-aos="flip-up" data-aos-delay='200' data-aos-once='true'>
                         <img src={icon_one} alt="" />
                         <h5 className="offer__option-title">SZUKAJ</h5>
                         <p className="offer__option-text">Znajdź kogo potrzebujesz w jednym miejscu i o każdej porze</p>
                     </div>
-                    <div className="offer__option">
+                    <div className="offer__option" data-aos="flip-up" data-aos-delay='300' data-aos-once='true'>
                         <img src={icon_two} alt="" />
                         <h5 className="offer__option-title">NIE PŁAĆ</h5>
                         <p className="offer__option-text">Nie płacisz za korzystanie z platformy. Korzystasz za darmo do woli</p>
                     </div>
-                    <div className="offer__option">
+                    <div className="offer__option" data-aos="flip-up" data-aos-delay='400' data-aos-once='true'>
                         <img src={icon_three} alt="" />
                         <h5 className="offer__option-title">POZNAWAJ</h5>
                         <p className="offer__option-text">Łącz się z ludźmi których szukasz, dyskutaj bez granic o swojej pasji</p>
@@ -51,17 +51,17 @@ function OfferTrendco() {
 
             {!showOffer ? 
                 <div className="offer__option-container">
-                    <div className="offer__option">
+                    <div className="offer__option" data-aos="flip-up" data-aos-delay='200' data-aos-once='true'>
                         <img src={icon_one} alt="" />
                         <h5 className="offer__option-title">ROZWIJAJ SIĘ</h5>
                         <p className="offer__option-text">Skup się na jakości swojej usługi - my pomożemy Ci znaleźć docelowych klientów</p>
                     </div>
-                    <div className="offer__option">
+                    <div className="offer__option" data-aos="flip-up" data-aos-delay='300' data-aos-once='true'>
                         <img src={icon_two} alt="" />
                         <h5 className="offer__option-title">BEZPŁATNIE</h5>
                         <p className="offer__option-text">Docieraj do swoich potencjalnych klientów całkowicie bezpłatnie</p>
                     </div>
-                    <div className="offer__option">
+                    <div className="offer__option" data-aos="flip-up" data-aos-delay='400' data-aos-once='true'>
                         <img src={icon_three} alt="" />
                         <h5 className="offer__option-title">ZAINSPIRUJ</h5>
                         <p className="offer__option-text">Rozmawiaj z innymi użytkownikami. Daj im poznać siebie i swój talent</p>

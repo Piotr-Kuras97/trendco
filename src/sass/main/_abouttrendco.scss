@@ -5,7 +5,7 @@
     position: relative;
     color: white;
     background-color: black;
-    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 
     @media(min-width: 1024px){
         display: flex;
@@ -24,7 +24,11 @@
             margin-left: $spacing-mobile * 2;
             margin-right: $spacing-mobile * 2;
             margin-bottom: $spacing-mobile * 2;
-    
+        }
+
+        @media (min-width: 1440px){
+            margin-left: 15%;
+            margin-right: $spacing-mobile * 4;
         }
 
         .about__title{
@@ -67,6 +71,11 @@
             @media(min-width: 1024px){
                 margin-left: 10%;
                 width: 80%;
+            }
+
+            @media(min-width: 1440px){
+                margin-right: 15%;
+                margin-left: 0;
             }
         }
     }

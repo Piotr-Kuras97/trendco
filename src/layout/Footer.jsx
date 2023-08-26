@@ -17,9 +17,9 @@ function Footer() {
             </div>
 
             <div className="footer__options">
-                <div className="footer__option" onClick={() => window.location.href = "mailto:contact@example.com"}>
+                <div className="footer__option" onClick={() => window.location.href = "mailto:trendco.kontakt@gmail.com"}>
                     <p className="footer__option-text"><FontAwesomeIcon icon={faEnvelope}/>Napisz do nas</p>
-                    <p className="footer__mail"> contact@example.com</p>
+                    <p className="footer__mail"> trendco.kontakt@gmail.com</p>
                 </div>
 
                 <div className="footer__option" onClick={() => window.location.href = "tel:+1234567890"}>

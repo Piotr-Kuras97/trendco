@@ -1,13 +1,10 @@
-import React, {useEffect} from 'react'
-import AOS from 'aos';
+import React from 'react'
 import 'aos/dist/aos.css';
 
 import aboutImage from '../assets/images/aboutimage.jpg'
 
 function AboutTrendco() {
-    useEffect(() => {
-        AOS.init();
-      }, [])
+
 
     return ( 
        <main className="about">

@@ -10,6 +10,11 @@
         padding: $spacing-mobile 200px;
     }
 
+    @media (min-width: 1440px){
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
     &__go-up{
         position: absolute;
         left: 50%;
@@ -53,6 +58,7 @@
             color: white;
             text-decoration: none;
             cursor: pointer;
+            display: block;
 
             @media(min-width: 768px){
                 flex-basis: 33.3%;
