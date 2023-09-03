@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trendco/static/css/main.3534d082.css",
-    "main.js": "/trendco/static/js/main.68938226.js",
+    "main.css": "/trendco/static/css/main.5b4fa9d6.css",
+    "main.js": "/trendco/static/js/main.fdc3a48d.js",
     "static/media/bg_register.jpg": "/trendco/static/media/bg_register.219808712d73eb0f8429.jpg",
     "static/media/infographic.svg": "/trendco/static/media/infographic.825bb7c448c755df3e9af1c612975929.svg",
     "static/media/graph-img2.png": "/trendco/static/media/graph-img2.6388236a846293493624.png",
@@ -12,11 +12,11 @@
     "static/media/connect.png": "/trendco/static/media/connect.6e590b90319461480f78.png",
     "static/media/free.png": "/trendco/static/media/free.9462582dfdc030519428.png",
     "index.html": "/trendco/index.html",
-    "main.3534d082.css.map": "/trendco/static/css/main.3534d082.css.map",
-    "main.68938226.js.map": "/trendco/static/js/main.68938226.js.map"
+    "main.5b4fa9d6.css.map": "/trendco/static/css/main.5b4fa9d6.css.map",
+    "main.fdc3a48d.js.map": "/trendco/static/js/main.fdc3a48d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3534d082.css",
-    "static/js/main.68938226.js"
+    "static/css/main.5b4fa9d6.css",
+    "static/js/main.fdc3a48d.js"
   ]
 }
