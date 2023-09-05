@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/trendco/static/css/main.64facb4a.css",
-    "main.js": "/trendco/static/js/main.9e2a6058.js",
+    "main.css": "/trendco/static/css/main.b7d6c8bd.css",
+    "main.js": "/trendco/static/js/main.17456e5a.js",
+    "static/media/second-card.jpg": "/trendco/static/media/second-card.2790e8f120c1e9c33bd4.jpg",
+    "static/media/first-card.jpg": "/trendco/static/media/first-card.cb0f18ea66125bc534a6.jpg",
     "static/media/bg_register.jpg": "/trendco/static/media/bg_register.219808712d73eb0f8429.jpg",
-    "static/media/infographic.svg": "/trendco/static/media/infographic.825bb7c448c755df3e9af1c612975929.svg",
+    "static/media/infografika.svg": "/trendco/static/media/infografika.a5daa370e15b487a22f9f1c6312d119f.svg",
     "static/media/graph-img2.png": "/trendco/static/media/graph-img2.6388236a846293493624.png",
     "static/media/faq__image.png": "/trendco/static/media/faq__image.06474407648c0c94b6b0.png",
-    "static/media/logo_black2.png": "/trendco/static/media/logo_black2.1052c971846aafc4d53a.png",
-    "static/media/aboutimage.jpg": "/trendco/static/media/aboutimage.42f70983886ddea0c631.jpg",
-    "static/media/logo_white.png": "/trendco/static/media/logo_white.a9d23319e69d6c68823e.png",
+    "static/media/aboutimage.jpg": "/trendco/static/media/aboutimage.55dfaabab61e7da173e2.jpg",
     "static/media/together.png": "/trendco/static/media/together.628379613664e84c9ea1.png",
+    "static/media/logo_white.png": "/trendco/static/media/logo_white.f7eec154302d5efbe2f4.png",
     "static/media/connect.png": "/trendco/static/media/connect.6e590b90319461480f78.png",
+    "static/media/logo_black.png": "/trendco/static/media/logo_black.c57531fdc3af80cb4142.png",
+    "static/media/google-play-badge.png": "/trendco/static/media/google-play-badge.4300d77f509e317a20e4.png",
     "static/media/free.png": "/trendco/static/media/free.9462582dfdc030519428.png",
+    "static/media/app-store-badge.svg": "/trendco/static/media/app-store-badge.c537e41d1368879239683f72cdb67cad.svg",
     "index.html": "/trendco/index.html",
-    "main.64facb4a.css.map": "/trendco/static/css/main.64facb4a.css.map",
-    "main.9e2a6058.js.map": "/trendco/static/js/main.9e2a6058.js.map"
+    "main.b7d6c8bd.css.map": "/trendco/static/css/main.b7d6c8bd.css.map",
+    "main.17456e5a.js.map": "/trendco/static/js/main.17456e5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.64facb4a.css",
-    "static/js/main.9e2a6058.js"
+    "static/css/main.b7d6c8bd.css",
+    "static/js/main.17456e5a.js"
   ]
 }
